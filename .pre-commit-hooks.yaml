@@ -4,3 +4,4 @@
     entry: check-nocommit
     language: python
     types: [text]
+    exclude: '^\.pre-commit-config\.yaml$'
