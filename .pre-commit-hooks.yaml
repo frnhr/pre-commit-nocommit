@@ -1,0 +1,6 @@
+-   id: check-nocommit
+    name: Prevent commiting nocommit
+    description: This hook will prevent the commit if there is "nocommit" (or similar) string in the diff
+    entry: check-nocommit
+    language: python
+    types: [text]
