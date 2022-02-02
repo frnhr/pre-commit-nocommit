@@ -25,7 +25,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 for pattern in CONFLICT_PATTERNS:
                     if pattern in line:
                         print(
-                            f'{pattern.decode()}" found in {filename}:{i + 1}',
+                            f'"{pattern.decode()}" found in {filename}:{i + 1}',
                         )
                         retcode = 1
 
